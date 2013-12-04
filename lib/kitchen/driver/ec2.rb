@@ -52,7 +52,7 @@ module Kitchen
         driver.default_username
       end
       default_config :endpoint do |driver|
-        "https://ec2.#{driver.default_region}".amazonaws.com"
+        "https://ec2.#{driver.default_region}.amazonaws.com"
       end
 
 
